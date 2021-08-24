@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.app {}
+
+.app-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.container {
+    margin: 30px;
+}
+
+.input {
+    max-width: 400px;
+}
+
+.input input {
+    padding: 5px;
+    width: 100%;
+    flex: 0.5;
+    font-size: 1.1rem;
+}
+
+.methods {
+    margin: 10px 0;
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+}
+
+.btn {
+    border: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.btn-get {
+    background-color: cornflowerblue;
+}
+
+.btn-post {
+    background-color: cadetblue;
+}
+
+.btn-history {
+    background-color: turquoise;
+}
+
+.btn:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.language-json {
+    margin-top: 10px;
+}
